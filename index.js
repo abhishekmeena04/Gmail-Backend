@@ -8,8 +8,8 @@ const app = express();
 app.use(cors());
 app.use(
   cors({
-    credentials: true,
     origin: "https://gmail-frontend.vercel.app",
+    credentials: true,
     methods: ["GET", "POST"],
   })
 );
